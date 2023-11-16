@@ -1,0 +1,112 @@
+header {
+    background: #c3c3c3;
+    padding: 20px 0;
+}
+
+.caixa-topo {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px 20px;
+}
+
+.principal h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+
+.principal p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.principal em strong{
+    color: #dc143c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.beneficios {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.beneficios h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 0;
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+
+.beneficios ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 46%;
+    margin: 10px;
+}
+
+.beneficios ul li p {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.beneficios ul li p:hover {
+    border-color: #c78c19;
+}
+
+.beneficios img {
+    width: 84%;
+}
+
+footer {
+    text-align: center;
+    background: url("../images/produtos/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 20px 0 0;
+}
